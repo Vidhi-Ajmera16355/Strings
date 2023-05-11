@@ -13,3 +13,25 @@ int main() {
    printf("Number of Vowels and consonants in the given string are : %d and %d",vowel,consonant);
    return 0;
 }
+
+
+
+
+// #include <stdio.h>
+// int main() {
+//    int vowel=0 , consonant=0 , i;
+//    char a[20];
+//    scanf("%[^\n]c",a);
+//    for (i=0;a[i];i++){
+//        if (a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u' || a[i]=='A' || a[i]=='E' || a[i]=='I' || a[i]=='O' || a[i]=='U'){
+//            vowel++;
+//            printf("Vowels are %c\n",a[i]);
+//        }
+//        else {
+//        consonant++;
+//        printf("consonants are %c\n",a[i]);
+//        }
+//    }
+//    printf("Number of Vowels and consonants in the given string are : %d and %d",vowel,consonant);
+//    return 0;
+// }
