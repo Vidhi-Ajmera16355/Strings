@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char s1[100];
+    char s1[100],d;
     printf("Enter string1:\n");
     scanf("%[^\n]c",s1);
+    scanf("%c",&d);
     char s2[100];
     printf("Enter string2:\n");
-    scanf("%s",s2);
+    scanf("%[^\n]c",s2);
     int n = 0;
     int flag=1;
     while (s1[n] !='\0'){
